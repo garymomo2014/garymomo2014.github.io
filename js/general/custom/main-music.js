@@ -8,6 +8,7 @@
 	// initial tab for IE problem
 	$(".nav-tabs a:eq(0)").trigger("click");
 	$(".nav-tabs a:eq(1)").trigger("blur");
+	$(".nav-tabs a:eq(2)").trigger("blur");
 
 	resize();
 	$(window).on("resize", resize);
@@ -134,6 +135,8 @@
 			htmlIframeSrc = 'v9Ft3viBgtQ';
 		} else if (chkId == 'adModalb5-2') {
 			htmlIframeSrc = 'UNCU12uO8JI';
+		} else if (chkId == 'adModalc1') {
+			htmlIframeSrc = 'Agp4wiln77g';
 		}
 		$("#adModal").find("#video-block").append(htmlIframe1 + htmlIframeSrc + htmlIframe2);
 	});

@@ -197,6 +197,31 @@ a, a:link, a:visited, a:hover {
 	width: 100%;
 }
 
+.music-sublist-detail-fix {
+	margin-top: -2rem;
+}
+.music-sublist-detail div {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.music-sublist-detail p {
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+	font-size: 1.1rem;
+	padding-right: 3rem;
+}
+.music-sublist-detail .music-sublist-detail-icon {
+	float: right;
+}
+.music-sublist-detail-icon a {
+	color: #986db2;
+	cursor: pointer;
+}
+.music-sublist-detail-icon .glyphicon {
+	font-size: 2rem;
+}
+
 .music-extra-box {
 	margin-left: 3%;
 	margin-right: 3%;
